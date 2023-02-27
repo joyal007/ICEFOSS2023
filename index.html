@@ -6,38 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<!-- Owl Theme Default Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- Owl Carousel Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- Owl Magnific Popup Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/magnific-popup.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" integrity="sha512-nIm/JGUwrzblLex/meoxJSPdAKQOe2bLhnrZ81g5Jbh519z8GFJIWu87WAhBH+RAyGbM4+U3S2h+kL5JoV6/wA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- Animate Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/animate.min.css"> -->
 		<link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 		<!-- Boxicons Min CSS --> 
-		<!-- <link rel="stylesheet" href="css/boxicons.min.css">  -->
-		<!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 		<!-- Flaticon CSS --> 
 		<link rel="stylesheet" href="css/flaticon.css">
 		<!-- Meanmenu Min CSS -->
 		<link rel="stylesheet" href="css/meanmenu.min.css">
-		<!-- <link rel="stylesheet" href="meanmenu.css" /> -->
 		<!-- Nice Select Min CSS -->
-		<!-- <link rel="stylesheet" href="css/nice-select.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- Odometer Min CSS-->
-		<!-- <link rel="stylesheet" href="css/odometer.min.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.5/themes/odometer-theme-default.css" integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		
 		<!-- Style CSS -->
@@ -48,7 +38,7 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="icon" type="image/png" href="images/icefoss_black.png">
 		<!-- Title -->
 		<title>Icefoss 2023</title>
     </head>
@@ -88,14 +78,14 @@
 							<div class="collapse navbar-collapse mean-menu">
 								<ul class="navbar-nav m-auto">
 									<li class="nav-item">
-										<a href="#" class="nav-link active">
+										<a onclick="scrollthere('home')" class="nav-link active">
 											Home
 											
 										</a>
 									</li>
 
 									<li class="nav-item">
-										<a href="#about" class="nav-link">About</a>
+										<a onclick="scrollthere('about')" class="nav-link">About</a>
 									</li>
 
 									<!-- <li class="nav-item">
@@ -108,7 +98,7 @@
 									</li> -->
 
 									<li class="nav-item">
-										<a href="#hackathon" class="nav-link">
+										<a onclick="scrollthere('hackathon')" class="nav-link">
 											Hackathon
 											
 										</a>
@@ -116,20 +106,21 @@
 									</li>
 
 									<li class="nav-item">
-										<a href="#workshops" class="nav-link">
-											Workshops
-											
-										</a>
-									</li>
-									<li class="nav-item">
-										<a href="#prize" class="nav-link">
+										<a onclick="scrollthere('prize')" class="nav-link">
 											Prize
 											
 										</a>
 									</li>
+									<li class="nav-item">
+										<a onclick="scrollthere('workshops')" class="nav-link">
+											Workshops
+											
+										</a>
+									</li>
+									
 
 									<li class="nav-item">
-										<a href="#sponsers" class="nav-link">
+										<a onclick="scrollthere('sponsers')" class="nav-link">
 											Sponsers
 											
 										</a>
@@ -157,7 +148,7 @@
 		<!-- End  Seku New Navbar Area -->
 
 		<!-- Start New Main Banner Area -->
-		<section class="new-main-banner-area-with-black-color">
+		<section class="new-main-banner-area-with-black-color" id="home">
 			<div class="container-fluid">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-12  ">
@@ -169,7 +160,7 @@
 						<div class="new-main-banner-black-content">
 							<h1 class="wow animate__animated animate__fadeInLeft icefoss_title" data-wow-delay="1s">ICEFOSS 2023</h1>
 							<h3></h3>
-							<p class="wow animate__animated animate__fadeInRight" data-wow-delay="1s">ICEFOSS is a Free Software Conference organized by FISAT Free Software Cell (FFSC) aiming all FOSS enthusiasts and others. ICEFOSS 2023, scheduled on April 2nd-4th  is the 11th edition of this conference.</p>
+							<p class="wow animate__animated animate__fadeInRight" data-wow-delay="1s">ICEFOSS 2023 is a National level  Free Software Conference organized jointly by FISAT Free Software Cell (FFSC) and ACM Student Chapter, FISAT . The conference is open to all FOSS enthusiasts and interested individuals. Scheduled to take place from April 2nd to 4th, ICEFOSS 2023 provides a platform for attendees to learn, share and network with like-minded individuals.</p>
 		
 		 					<!-- <img src="./images/hackfit.svg" alt="" srcset=""> -->
 							<ul class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="1s">
@@ -195,7 +186,7 @@
 	
 		
 		<!-- Start Safer World Area -->
-		<div class="safer-world-area-without-color" id="about">
+		<div class="safer-world-area-without-color" id="about" style="    padding-top: 86px;">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-12">
@@ -205,7 +196,7 @@
 					</div>
 
 					<div class="col-lg-6 col-md-12" >
-						<div class="safer-world-content white-color-content">
+						<div class="safer-world-content white-color-content" >
 							<h3>What's HACKFIT?</h3>
 							<p>HACKFIT is a 36-hour Hackathon conducted as part of ICEFOSS 2023 commencing from the 2nd of April 2023 to the 4th of April 2023. Participants can enter the competition individually or as a team of not more than 5 members. The Hackathon will have 2 rounds with round 1 being exclusively online. The winning team along with the 2 runners up teams will be offered an opportunity to connect with some of our leading industry partners.</p>
 
@@ -223,6 +214,23 @@
 									</div>
 								</div>
 							</div>
+							<div class="row justify-content-center align-items-center">
+								<div class="col-4 col-lg-4">
+									<div class="org-image">
+										<img src="/images/FISAT.png" alt="" srcset="" style="color:white;background-color:white">
+									</div>
+								</div>
+								<div class="col-4  col-lg-4">
+									<div class="safer-world-inner-box">
+										<img src="/images/ACM-FISAT-logo.png" alt="" srcset="">
+									</div>
+								</div>
+								<div class="col-4  col-lg-4">
+									<div class="safer-world-inner-box">
+										<img src="/images/fcfs.png" alt="" srcset="">
+									</div>
+								</div>
+							</div>
 
 							<!-- <div class="safer-world-btn">
 								<a href="about.html" class="default-btn">Know More About Us</a>
@@ -235,7 +243,7 @@
 		<!-- End Safer World Area -->
 		
 		<!-- Start Complete Website Security Area -->
-		<div class="complete-website-security-area pt-100 pb-75" id="prize">
+		<div class="complete-website-security-area pt-100 " id="prize">
 			<div class="container">
 				<div class="section-title">
 					<h2>LeaderBoard</h2>
@@ -277,7 +285,7 @@
 											FIRST
 										</h1>
 										<h3 class="text-center">
-											30K
+											25K
 										</h3>
 									</div>
 									<!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit adiing eleifend dictum pot nti.</p> -->
@@ -299,7 +307,7 @@
 										SECOND
 									</h1>
 									<h3 class="text-center">
-										20K
+										15K
 									</h3>
 								</div>
 									<!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit adiing eleifend dictum pot nti.</p> -->
@@ -311,20 +319,7 @@
 						</div>
 					</div>
 
-					<!-- <div class="col-lg-3 col-sm-6">
-						<div class="complete-website-security-card mb-25">
-							<div class="icon">
-								<i class="flaticon-profile"></i>
-							</div>
-							<h3>
-								<a href="services-details.html">Managed Web Application</a>
-							</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit adiing eleifend dictum pot nti.</p>
-							<div class="security-shape">
-								<img src="images/security-shape-2.png" alt="image" loading="lazy">
-							</div>
-						</div>
-					</div> -->
+					
 				</div>
 			</div>
 
@@ -336,6 +331,10 @@
 
 		<!-- Start Home Control Area -->
 		<div class="home-control-area ptb-100" id ="hackathon">
+			<div class="section-title">
+				<h2>Problem Statement for Hackathon</h2>
+				<p style="text-align:left">A good hackathon problem statement sparks creativity, provokes unconventional thinking, and empowers teams to change the world.</p>
+			</div>
 			<div class="container" >
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-12">
@@ -345,17 +344,17 @@
 					</div>
 					<div class="col-lg-6 col-md-12 order-md-first">
 						<div class="home-control-content white-color-content">
-							<h3>Problem Statement for Hackathon</h3>
-							<p>A good hackathon problem statement sparks creativity, provokes unconventional thinking, and empowers teams to change the world.</p>
+							<!-- <h3>Problem Statement for Hackathon</h3>
+							<p>A good hackathon problem statement sparks creativity, provokes unconventional thinking, and empowers teams to change the world.</p> -->
 
 							<div class="home-control-tab-wrap">
 								<div class="tab home-control-tab">
 									<ul class="tabs">
 										<li>
-											<a href="#">FOOD SAFETY</a>
+											<a href="#problem">FOOD SAFETY</a>
 										</li>
 										<li>
-											<a href="#">WILD ANIMAL DETECTION </a>
+											<a href="#problem">WILD ANIMAL DETECTION </a>
 										</li>
 										<!-- <li>
 											<a href="#">Drug Traffic</a>
@@ -384,14 +383,8 @@
 											
 										</div>
 
-										<!-- <div class="tabs_item">
-											<p>Due to its proximity to two of the "three key production areas" for opium, India is facing an illegal drug crisis. But cross-border trafficking explains only part of the illicit drug trade that runs through the country. The Ministry of Chemicals and Fertilizers, states that India is the world's largest generic drug manufacturer. However, there are reports of illegal chemical precursor trades, as well as clandestine manufacturing and storage of synthetic drugs.</p><br>
-											<p>Consider the possibility of a drug peddler in your neighbourhood. You see him supplying drugs to people, including kids in your locality as well as other areas. At present drug trafficking can only be reported via the narcotics squad or local police station. There is no digital means to report it. In spite of your desire to report it, you're afraid of the potential mishaps that may occur if the peddler finds out about the informant. This is not a viable option since most of the public are not willing to reveal their profiles.</p>
-
-											
-										</div> -->
-
 										
+
 										
 									</div>
 								</div>
@@ -453,30 +446,28 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>Cloud Computing (AWS/Azure)</h3>
-                                        <p>Are you curious about how cloud computing can transform the way you work and manage your data? Do you want to learn how to leverage the power of the cloud to enhance your productivity and efficiency?
+                                        <p>Are you interested in learning about the transformative power of cloud computing? Our Cloud Computing Workshop can help you discover how cloud technologies can enhance your productivity and efficiency, both in your personal life and your business.
 											<br>
 											<br>
-											Join our Cloud Computing Workshop and discover the benefits of using cloud technologies in your business or personal life. Our expert instructors will guide you through the fundamentals of cloud computing, including cloud architecture, deployment models, and service models.
-											<br>
-											<br>
-											You'll also learn how to select the right cloud provider, migrate your data to the cloud, and secure your cloud infrastructure. With hands-on exercises and real-world examples, you'll gain practical skills and insights that you can apply immediately.
-											<br><br>
-											Don't miss this opportunity to unlock the full potential of cloud computing. Register now for our Cloud Computing Workshop and take your skills to the next level!</p>
-                                        <!-- <div class="row justify-content-center">
+											Led by expert instructors, this workshop covers the fundamental aspects of cloud computing, including 
+											cloud architecture, deployment models, and service models. You will also gain practical skills and insights on how to choose the right cloud provider, migrate your data to the cloud, and secure your cloud infrastructure.
+											
+											</p>
+                                        <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> Learn the power of cloud computing</li>
+                                                    <li><i class="bx bx-check"></i> Hands-on exercises </li>
                                                 </ul>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-6 col-md-6 second-feature" >
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
-                                                    <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
+                                                    <li><i class="bx bx-check"></i> Training on cloud platforms</li>
+                                                    <!-- <li><i class="bx bx-check"></i> Tighten Internal Controls</li> -->
                                                 </ul>
                                             </div>
-                                        </div> -->
-                                        <!-- <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p> -->
+                                        </div>
+                                        <p> Don't miss this opportunity to level up your skills and register now for our Cloud Computing Workshop.</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Register Now</a>
                                         </div>
@@ -498,22 +489,22 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>AR and Game Development</h3>
-                                        <p>Exploring basic Kali Linux tools, Tryhackme and online tools. Provides hands on about CTF challenges and system/android level hacking. Introduction to VAPT,SOC,web hacking ,how to submit bug bounty reports with discussions about pentester labs,how to fetch logs from server and about OSINT Tools, HTB. Will complete the SPLUNK fundamentals, project discussions, how to stay in the field with just bug bounties. Concludes with how to explore Linkedin for better learning insights.</p>
+                                        <p>Passionate about video games? Learn to create immersive experiences that merge the virtual world with reality at our upcoming AR and Game Dev Workshop. Our experienced instructors will guide you through game design fundamentals, AR technology, and more. Gain practical skills and knowledge for your own game dev projects. Whether you are an experienced developer or a newcomer to the world of game design, our AR and Game Development Workshop will help you take your skills to the next level. </p>
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> Learn game design fundamentals and AR technology integration</li>
+                                                    <li><i class="bx bx-check"></i> Hands-on exercises and real-world examples for practical skills</li>
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
-                                                    <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
+                                                    <li><i class="bx bx-check"></i> Perfect for experienced developers or newcomers</li>
+                                                    <!-- <li><i class="bx bx-check"></i> Tighten Internal Controls</li> -->
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p>
+                                        <p>Register now to learn from industry experts and explore the exciting possibilities of AR and game development.</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Get Started Now</a>
                                         </div>
@@ -534,22 +525,26 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>Web 3.0 (NFT and Metaverse)</h3>
-                                        <p>Providing a platform to connect budding developers to experienced developers. Organised with the intention of inspiring and guiding young minds, where the audience can interact as well as clear their doubts as they go through the journey of becoming technically efficient. We have been able to bring in accomplished people who are more than eager to share their story as well as direct those pursuing the same path.</p>
+                                        <p>Providing a platform to connect budding developers to experienced developers. Organised with the intention of inspiring and guiding young minds, where the audience can interact as well as clear their doubts as they go through the journey of becoming technically efficient. We have been able to bring in accomplished people who are more than eager to share their story as well as direct those pursuing the same path.Dive into Web3.0, NFTs, and the Metaverse with our upcoming workshop. Learn about blockchain technology, from basics to advanced concepts, and explore its potential applications with NFTs.
+											<!-- <br>
+											<br>
+											Our workshop includes hands-on sessions with various blockchain tools to help you understand how it can transform the way we create and exchange digital assets. You'll also delve into the Metaverse, a virtual world that connects people, assets, and experiences in a seamless and immersive way. -->
+											</p>
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> No previous knowledge is required</li>
+                                                    <li><i class="bx bx-check"></i> Delve into the Metaverse</li>
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
-                                                    <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
+                                                    <li><i class="bx bx-check"></i> Learn about the future of the Internet</li>
+                                                    <!-- <li><i class="bx bx-check"></i> Tighten Internal Controls</li> -->
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p>
+                                        <p>Join us whether you're a developer or just curious. Upgrade your skills and explore the exciting world of Web3.0, NFTs, and the Metaverse. Register now!!</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Get Started Now</a>
                                         </div>
@@ -569,22 +564,24 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>Dev Ops</h3>
-                                        <p>Providing a platform to connect budding developers to experienced developers. Organised with the intention of inspiring and guiding young minds, where the audience can interact as well as clear their doubts as they go through the journey of becoming technically efficient. We have been able to bring in accomplished people who are more than eager to share their story as well as direct those pursuing the same path.</p>
+                                        <p>Get ready to revolutionize your software development process with our DevOps workshop. This immersive experience will take you deep into the world of DevOps, teaching you how to optimize your workflows, increase collaboration between teams, and deliver high-quality applications faster than ever before.
+
+											Our experienced instructors will guide you through key concepts and techniques used by DevOps professionals. They will help you understand the importance of DevOps in the software development industry. Whether you are studying computer science, IT, or any other technology-related field, this workshop is for you. </p>
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> Devops Best Practices</li>
+                                                    <li><i class="bx bx-check"></i> Development vs Operation</li>
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
+                                                    <li><i class="bx bx-check"></i> Optimize workflows </li>
                                                     <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p>
+                                        <p>Don't miss out on this opportunity to learn from industry experts and network with fellow students. Register now and take the first step towards becoming a DevOps professional!</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Get Started Now</a>
                                         </div>
@@ -604,22 +601,22 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>Go Lang</h3>
-                                        <p>Providing a platform to connect budding developers to experienced developers. Organised with the intention of inspiring and guiding young minds, where the audience can interact as well as clear their doubts as they go through the journey of becoming technically efficient. We have been able to bring in accomplished people who are more than eager to share their story as well as direct those pursuing the same path.</p>
+                                        <p>Join our Golang workshop and improve your programming skills. Our expert instructors will guide you through the fundamentals of Go, including syntax, data types, functions, and more. You'll also have the opportunity to build practical skills with coding challenges and exercises. Whether you’re a beginner or experienced programmer, this workshop is for you. </p>
                                         <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> Discover the power of Go</li>
+                                                    <li><i class="bx bx-check"></i> Network with fellow students</li>
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
-                                                    <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
+                                                    <li><i class="bx bx-check"></i> Basic Syntax</li>
+                                                    <li><i class="bx bx-check"></i> Get Expert</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p>
+                                        <p>Register now to become a GoLang expert and network with fellow students.</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Get Started Now</a>
                                         </div>
@@ -641,31 +638,22 @@
                                 <div class="col-lg-6 col-md-12 order-md-first">
                                     <div class="cyber-defenses-content">
                                         <h3>Web Development</h3>
-                                        <p>Join us for our upcoming Webdev workshop and learn how to create modern and responsive web applications using the latest web development tools and techniques.
-											<br>
-
-											Our experienced instructors will guide you through the fundamentals of web development, including HTML, CSS, and JavaScript. You'll also learn how to use APIs to build dynamic and interactive web applications.
-											<br>
-											During the workshop, you'll have the opportunity to work on hands-on coding projects and exercises, putting your new skills to the test. By the end of the workshop, you'll have a solid understanding of web development and be able to create your own web applications from scratch.
-											<br>
-											Whether you're a beginner or an experienced developer, this workshop is for you. Our instructors will tailor the content to meet the needs of participants at all skill levels, ensuring that everyone can benefit from this valuable learning experience.
-											<br>
-											Don't miss out on this exciting opportunity to learn from industry experts and network with fellow developers. Register now for our Webdev workshop and take the first step towards becoming a web development pro!</p>
-                                        <!-- <div class="row justify-content-center">
+                                        <p>Join our Webdev workshop and learn to create modern and responsive web apps using the latest tools and techniques. Our experienced instructors will teach you HTML, CSS, JavaScript, and APIs. You'll practice coding through hands-on projects and exercises. By the end, you'll be able to create web applications from scratch. The workshop is suitable for beginners and experienced developers alike, with tailored content for all skill levels. </p>
+                                        <div class="row justify-content-center">
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Focus on The Basics</li>
-                                                    <li><i class="bx bx-check"></i> Educate Customers</li>
+                                                    <li><i class="bx bx-check"></i> Learn to create modern and responsive web apps</li>
+                                                    <li><i class="bx bx-check"></i> From HTML, CSS to APIs - we've got you covered</li>
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
                                                 <ul class="cyber-list">
-                                                    <li><i class="bx bx-check"></i> Be Proactive</li>
-                                                    <li><i class="bx bx-check"></i> Tighten Internal Controls</li>
+                                                    <li><i class="bx bx-check"></i> Hands-on coding projects and exercises to put your skills to the test</li>
+                                                    <!-- <li><i class="bx bx-check"></i> Tighten Internal Controls</li> -->
                                                 </ul>
                                             </div>
-                                        </div> -->
-                                        <!-- <p>Lorem ipsum dolor sit amet consecte adipi scing elit adipiscing eleifend dictum poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.</p> -->
+                                        </div>
+                                        <p>Don't miss this chance to learn from industry experts and network with fellow developers. Register now!</p>
                                         <div class="cyber-btn">
                                             <a href="" class="default-btn">Get Started Now</a>
                                         </div>
@@ -685,134 +673,7 @@
                 <img src="images/cyber-defenses-shape.png" alt="image" loading="lazy">
             </div>
         </div>
-        <!-- End Cyber Defenses Area -->
-
-		<!-- <div class="cyber-defenses-area pb-100 sponsers " id="sponsers">
-            <div class="container">
-                <div class="section-title sponsers-title">
-                    <h2>Sponsors</h2>
-                </div>
-				<div class="row  gy-4 align-items-center ">
-					<div class="col-lg-3 col-12 col-md-4 d-flex justify-content-center ">
-						<a href="">
-						<div class="sponsers-card sponser1">
-							<div class="sponser-main">
-
-								<img src="./images/netstratum.png" alt="" srcset="">
-							</div>
-							<div class="sponsers-type">
-							<img src="./images/sponser1.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-					<div class="col-lg-3 col-12 col-md-4 d-flex justify-content-center ">
-						<a href="">
-						<div class="sponsers-card sponser1">
-							<div class="sponser-main">
-
-								<img src="./images/netstratum.png" alt="" srcset="">
-							</div>
-							<div class="sponsers-type">
-							<img src="./images/sponser1.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-				</div>
-				<div class="mb-25"></div>
-				<div class="row justify-content-start align-items-center gy-4">
-					<div class="col-lg-3  col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser2">
-							<div class="sponser-main">
-								<img src="./images/netstratum.png" alt="" srcset="">
-
-							</div>
-							<div class="sponsers-type">
-								<img src="./images/sponser2.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-					<div class="col-lg-3  col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser2">
-							<div class="sponser-main">
-								<img src="./images/netstratum.png" alt="" srcset="">
-
-							</div>
-							<div class="sponsers-type">
-								<img src="./images/sponser2.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-					<div class="col-lg-3  col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser2">
-							<div class="sponser-main">
-								<img src="./images/netstratum.png" alt="" srcset="">
-
-							</div>
-							<div class="sponsers-type">
-								<img src="./images/sponser2.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-				</div>
-				<div class="mb-25"></div>
-				<div class="row justify-content-start align-items-center gy-4 ">
-					<div class="col-lg-3 col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser3">
-							<div class="sponser-main">
-
-								<img src="./images/netstratum.png" alt="" srcset="">
-							</div>
-							<div class="sponsers-type">
-							<img src="./images/sponser3.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-					<div class="col-lg-3 col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser3">
-							<div class="sponser-main">
-
-								<img src="./images/netstratum.png" alt="" srcset="">
-							</div>
-							<div class="sponsers-type">
-							<img src="./images/sponser3.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-					<div class="col-lg-3 col-12 col-md-4 d-flex justify-content-center">
-						<a href="">
-						<div class="sponsers-card sponser3">
-							<div class="sponser-main">
-
-								<img src="./images/netstratum.png" alt="" srcset="">
-							</div>
-							<div class="sponsers-type">
-							<img src="./images/sponser3.png" alt="" srcset="">
-							</div>
-						</div>
-					</a>
-					</div>
-				</div>
-
-            </div>
-
-            
-        </div> -->
-        <!-- End Cyber Defenses Area -->
-
-
-
+       
 		
 		<!-- End Latest News Area -->
 		<div class="latest-news-area pb-75">
@@ -922,7 +783,7 @@
                                 <!-- <img src="images/logo.png" alt="logo" loading="lazy"> -->
 								<h1 class="logo-hackfit">ICEFOSS</h1>
                             </a>
-                            <p>ICEFOSS 2023 is scheduled on March 23rd-25th and it's the 10th edition of this conference.</p>
+                            <p>ICEFOSS 2023 is scheduled on April 2nd-4th and it's the 11th edition of this conference.</p>
                             <ul class="social-links">
                                 <!-- <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li> -->
@@ -936,11 +797,11 @@
                         <div class="single-footer-widget-card ps-5">
                             <h3>About Us</h3>
                             <ul class="custom-links">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="services-details.html">Website Security</a></li>
-                                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
-                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a >About Us</a></li>
+                                <li><a >Pricing</a></li>
+                                <li><a >Website Security</a></li>
+                                <li><a >Terms & Conditions</a></li>
+                                <li><a >Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -962,38 +823,20 @@ Angamaly, Kerala 683577
 											icefoss@fisat.ac.in
 									</a>
                                 </li>
-                                <li>
-                                    <span>Phone:</span>
-                                    <a href="tel:+1-485-456-0102">+1-485-456-0102</a>
+								<li>
+                                    <span>Sreejith S Kartha :</span>
+                                    <a href="tel:+1-485-456-0102"> 8921057297</a>
                                 </li>
-                                <!-- <li>
-                                    <span>Fax:</span>
-                                    <a href="tel:+1-07854578964">+1-0785 4578964</a>
-                                </li> -->
+                               
                             </ul>
                         </div>
                     </div>
 
-                    <!-- <div class="col-lg-3 col-md-4 col-sm-4">
-                        <div class="single-footer-widget-card">
-                            <h3>Newsletter</h3>
-                            
-                            <div class="widget-newsletter-content">
-                                <p>Latest resources sent to your inbox weekly</p>
-                            </div>   
-
-                            <form class="newsletter-form" data-bs-toggle="validator">
-                                <input type="email" class="input-newsletter" placeholder="Email address" name="EMAIL" required autocomplete="off">
-        
-                                <button type="submit" class="default-btn">Subscribe Now</button>
-                                <div id="validator-newsletter" class="form-result"></div>
-                            </form>
-                        </div>
-                    </div> -->
+                   
                 </div>
             </div>
             <div class="copyright-style-two-with-color">
-                <p>Copyright @ 2023 <b>ICEFOSS</b> All Rights Reserved by <a href="" target="_blank">EnvyTheme</a></p>
+                <p>Copyright @ 2023 <b>ICEFOSS</b> All Rights Reserved by <a href="https://fisat.ac.in" target="_blank">FISAT</a></p>
             </div>
             <div class="footer-shape-1">
                 <img src="images/footer-shape-1.png" alt="image" loading="lazy">
@@ -1017,7 +860,7 @@ Angamaly, Kerala 683577
 		<!-- End Go Top Area -->
 
         <!-- Jquery Min JS -->
-        <script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery.min.js"></script> 
+        <script src="js/jquery.min.js"></script> 
         <!-- Bootstrap Bundle Min JS -->
         <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -1049,6 +892,7 @@ Angamaly, Kerala 683577
 		<script src="js/contact-form-script.js"></script>
 		<!-- Ajaxchimp Min JS -->
 		<script src="js/ajaxchimp.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js" integrity="sha512-5yj5elY9u6clGe9/97bj3jJlw8+O9XSv/tbme8m/LR8cKnnT5+rR8qHW/UYQ/MozLg3cvTHeYIpM5kRktASSbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
         <!-- Custom JS -->
 		<script src="js/custom.js"></script>
     </body>

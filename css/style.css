@@ -9230,10 +9230,12 @@ New Main Banner Area CSS
 .new-main-banner-wrap-content .banner-btn li .default-btn.color-two:hover {
   color: #000000;
 }
-
+.org-image img{
+  width:80px;
+}
 .new-main-banner-area-with-black-color {
   padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -11154,6 +11156,12 @@ Cyber Defenses Area CSS
   color: #ffffff;
 }
 
+.nav-link.active{
+  color: #d80650;;
+}
+
+
+
 .cyber-defenses-list-tabs .nav .nav-item .nav-link:hover::before, .cyber-defenses-list-tabs .nav .nav-item .nav-link.active::before {
   height: 100%;
 }
@@ -11219,6 +11227,7 @@ Cyber Defenses Area CSS
 
 .cyber-defenses-image {
   text-align: end;
+  width: 550px;
 }
 
 .cyber-defenses-shape {

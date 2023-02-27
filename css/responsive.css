@@ -1,5 +1,8 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  .second-feature .cyber-list{
+    margin-top:0;
+  }
   .ptb-100 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1331,6 +1334,7 @@
   .cyber-defenses-image {
     text-align: center;
     margin-top: 30px;
+    width: 350px;
   }
 }
 
