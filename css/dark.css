@@ -140,11 +140,34 @@ Default CSS
 }
 
 .theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #807d82;
 }
 
 .theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
   color: #d80650;
+}
+.theme-dark .footer-style-two-with-color{
+  background-color: #807d82a1;
+}
+
+.theme-dark .seku-new-nav-area .navbar-area{
+  background-color: #222121;
+}
+.theme-dark .copyright-style-two-with-color{
+  background-color: #222121;
+}
+.theme-dark .home-control-content.white-color-content .home-control-tab-wrap .home-control-tab .tabs li{
+  background-color: #222121;
+}
+.theme-dark .cyber-defenses-list-tabs .nav .nav-item .nav-link::before{
+  background:none;
+  background-color: #222121;
+}
+.theme-dark .cyber-defenses-list-tabs .nav .nav-item .nav-link, .theme-dark .latest-news-card.white-color-content{
+  border:1px solid #807d82;
+}
+.theme-dark .lines-line .line{
+  background: #807d82;
 }
 
 .theme-dark .seku-new-nav-area .navbar-area.is-sticky {
