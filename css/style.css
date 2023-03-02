@@ -472,6 +472,7 @@ Nav Area Style
   margin-left: 0;
   margin: 0 10px;
   position: relative;
+  cursor:pointer ;
 }
 
 .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a i {
@@ -3232,6 +3233,7 @@ Nav Area Style
   margin-left: 0;
   margin: 0 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item a i {
@@ -8856,6 +8858,7 @@ Seku New Navbar Area CSS
 
 .seku-new-nav-area.nav-with-black-color .navbar-area .main-nav nav .navbar-nav .nav-item a {
   color: #ffffff;
+  cursor:pointer
 }
 
 .seku-new-nav-area.nav-with-black-color .navbar-area.is-sticky {
@@ -11232,6 +11235,7 @@ Cyber Defenses Area CSS
 .cyber-defenses-list-tabs .nav .nav-item {
   display: inline-block;
   margin-right: 20px;
+  
 }
 
 .cyber-defenses-list-tabs .nav .nav-item:last-child {
