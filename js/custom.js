@@ -44,7 +44,7 @@ function scrollthere(item, event) {
 						<a href="${data.response.hackathon.url}">
 							<div class="card p-4" role="button">
 							
-								<img src="./images/hackathon.png" alt="" srcset="">
+								<img src="./images/hackathon.jpg" alt="" srcset="">
 								<div class="card-body">
 									<p>HackFIT</p>
 								</div>
@@ -59,7 +59,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.url}">
 							<div class="card p-4" role="button">
-								<img src="./images/workshop.png" alt="" srcset="">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
 								<div class="card-body">
 									<p>Workshops</p>
 								</div>
@@ -73,7 +73,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.prompt_engineering.url}">
 						<div class="card p-4" role="button">
-						<img src="./images/prompt.png" alt="" srcset="">
+						<img src="./images/prompt.jpeg" alt="" srcset="">
 						<div class="card-body">
 							<p>PROMPTLY</p>
 						</div>
