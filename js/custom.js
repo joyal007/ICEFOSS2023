@@ -40,6 +40,7 @@ function scrollthere(item, event) {
           console.log(data.response)
           let num = 0;
           if (data.response.hackathon.status) {
+            $(".hackfit-btn").attr("href",data.response.hackathon.url)
             html_start += `<div class="col-md-4 ">
 						<a href="${data.response.hackathon.url}">
 							<div class="card p-4" role="button">
