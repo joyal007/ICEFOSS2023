@@ -80,7 +80,7 @@ function scrollthere(item, event) {
             num += 1;
           }
 					if(num == 0){
-						html_start += '<h4>No registrations started 😢, check back later.</h4>'
+						html_start += '<h4 style="color: #fff;">No registrations started 😢, check back later.</h4>'
 					}
 					html_start += '</div>'
 					$("#registrationForms").html(html_start);
