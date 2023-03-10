@@ -8196,7 +8196,29 @@ Preloader Area Style*/
             transform: rotate(360deg);
   }
 }
-
+.cyber-list li{
+  color: #E8E8E8;
+  font-weight: 400;
+  list-style-type: none;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 32px;
+  font-size: 15px;
+}
+.cyber-list li i{
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  background: linear-gradient(129.37deg, #603364 8.09%, #7F3668 100%);
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 @-webkit-keyframes spin-reverse {
   0% {
     -webkit-transform: rotate(0deg);

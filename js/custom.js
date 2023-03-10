@@ -37,6 +37,7 @@ function scrollthere(item, event) {
       })
       .then((data) => {
         if (data.response_code == 200) {
+          console.log(data.response)
           let num = 0;
           if (data.response.hackathon.status) {
             html_start += `<div class="col-md-4 ">
@@ -54,6 +55,7 @@ function scrollthere(item, event) {
             num += 1;
           }
           if (data.response.workshop.status) {
+            $(".workshop-btn").attr("href",data.response.workshop.url)
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.url}">
 							<div class="card p-4" role="button">
@@ -67,6 +69,7 @@ function scrollthere(item, event) {
             num += 1;
           }
           if (data.response.prompt_engineering.status) {
+            $('.promptly-').attr("href",data.response.prompt_engineering.url)
             html_start += `<div class="col-md-4">
 						<a href="${data.response.prompt_engineering.url}">
 						<div class="card p-4" role="button">
@@ -304,7 +307,7 @@ function scrollthere(item, event) {
       //
       const sectionTop =
         current.getBoundingClientRect().top + window.pageYOffset - 50;
-      sectionId = current.getAttribute("id");
+      // sectionId = current.getAttribute("id");
 
       /*
     - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it

@@ -117,6 +117,10 @@ Default CSS
 .theme-dark a {
   color: #ffffff;
 }
+/* .theme-dark .navbar-brand img{
+  left:-70px !important;
+  top:-70px !important
+} */
 
 .theme-dark .h1, .theme-dark .h2, .theme-dark .h3, .theme-dark .h4, .theme-dark .h5, .theme-dark .h6, .theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
   color: #ffffff !important;
@@ -151,10 +155,10 @@ Default CSS
   color: #ffffff;
 }
 
-.theme-dark .seku-new-nav-area .navbar-brand {
+/* .theme-dark .seku-new-nav-area .navbar-brand {
   -webkit-filter: invert(1);
           filter: invert(1);
-}
+} */
 
 .theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
   color: #807d82;
@@ -195,10 +199,10 @@ Default CSS
   color: #ffffff;
 }
 
-.theme-dark .seku-new-nav-area.nav-with-black-color .navbar-brand {
+/* .theme-dark .seku-new-nav-area.nav-with-black-color .navbar-brand {
   -webkit-filter: invert(0);
           filter: invert(0);
-}
+} */
 
 .theme-dark .hero-slider-area .slider-item::before {
   background-color: rgba(24, 24, 24, 0.9);

@@ -2594,7 +2594,7 @@
   }
   .mobile-nav .logo {
     top: 14px;
-    max-width: 105px;
+    /* max-width: 105px; */
   }
   .mobile-nav.mean-container .mean-nav {
     margin-top: 70px;
