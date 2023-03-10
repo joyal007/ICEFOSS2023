@@ -73,6 +73,13 @@ a {
   color:white
 }
 
+.section-left{
+  background-color: #1C0531 !important
+}
+.section-right{
+ background-color: #280649 !important
+}
+
 a:hover {
   text-decoration: none;
   color: #0e0129;
@@ -8096,6 +8103,7 @@ Preloader Area Style*/
 }
 
 .loader {
+  background-color: #1C0531;
   display: block;
   position: relative;
   left: 50%;
