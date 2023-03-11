@@ -2573,7 +2573,12 @@
 
 /* Only Mobil Menu Max width 991px */
 @media only screen and (max-width: 991px) {
-  
+  .cyber-defenses-content .row{
+    margin-bottom:25px
+  }
+  .cyber-defenses-content .cyber-list{
+    margin-bottom: 0px;
+  }
   .mean-container .mean-bar {
     /* background-color: #25245e; */
     background: #280649;
