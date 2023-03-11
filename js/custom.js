@@ -55,20 +55,7 @@ function scrollthere(item, event) {
 					</div>`;
             num += 1;
           }
-          if (data.response.workshop.status) {
-            $(".workshop-btn").attr("href",data.response.workshop.url)
-            html_start += `<div class="col-md-4">
-						<a href="${data.response.workshop.url}">
-							<div class="card p-4" role="button">
-								<img src="./images/workshop.jpeg" alt="" srcset="">
-								<div class="card-body">
-									<p>Workshops</p>
-								</div>
-							</div>
-						</a>
-					</div>`;
-            num += 1;
-          }
+          
           if (data.response.prompt_engineering.status) {
             $('.promptly-').attr("href",data.response.prompt_engineering.url)
             html_start += `<div class="col-md-4">
@@ -80,6 +67,81 @@ function scrollthere(item, event) {
 						</div>
 					</div>
 				</a>
+					</div>`;
+            num += 1;
+          }
+          if (data.response.workshop.ar.status) {
+            // console.log(data.response)
+            $(".ar-btn").attr("href",data.response.workshop.ar.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.ar.url}">
+							<div class="card p-4" role="button">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
+								<div class="card-body">
+									<p>AR Workshop</p>
+								</div>
+							</div>
+						</a>
+					</div>`;
+            num += 1;
+          }
+          if (data.response.workshop.go.status) {
+            // console.log(data.response)
+            $(".go-btn").attr("href",data.response.workshop.go.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.go.url}">
+							<div class="card p-4" role="button">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
+								<div class="card-body">
+									<p>GO Workshop</p>
+								</div>
+							</div>
+						</a>
+					</div>`;
+            num += 1;
+          }
+          if (data.response.workshop.devops.status) {
+            // console.log(data.response)
+            $(".devops-btn").attr("href",data.response.workshop.devops.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.devops.url}">
+							<div class="card p-4" role="button">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
+								<div class="card-body">
+									<p>DevOps Workshop</p>
+								</div>
+							</div>
+						</a>
+					</div>`;
+            num += 1;
+          }
+          if (data.response.workshop.web.status) {
+            // console.log(data.response)
+            $(".web-btn").attr("href",data.response.workshop.web.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.web.url}">
+							<div class="card p-4" role="button">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
+								<div class="card-body">
+									<p>Web Workshop</p>
+								</div>
+							</div>
+						</a>
+					</div>`;
+            num += 1;
+          }
+          if (data.response.workshop.flutter.status) {
+            // console.log(data.response)
+            $(".flutter-btn").attr("href",data.response.workshop.flutter.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.flutter.url}">
+							<div class="card p-4" role="button">
+								<img src="./images/workshop.jpeg" alt="" srcset="">
+								<div class="card-body">
+									<p>Flutter Workshop</p>
+								</div>
+							</div>
+						</a>
 					</div>`;
             num += 1;
           }
