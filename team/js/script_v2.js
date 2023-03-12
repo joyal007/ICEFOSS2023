@@ -2,14 +2,14 @@ $(()=>{
     const Tech =[
         {
             name: "Nihal Ansar",
-            img: 'nihal_2.png',
+            img: 'nihal_updated.png',
             inst: "https://instagram.com/_nihal_2k",
             git: "https://github.com/nihalansar",
             link: "https://www.linkedin.com/in/nihalansar"
         },
         {
             name: "Joyal Raphel",
-            img: "joyal.jpg",
+            img: "joyal_updated.jpg",
             inst: "https://instagram.com/_joyal_raphel",
             git: "https://github.com/joyal007",
             link: "https://www.linkedin.com/in/joyalraphel"
