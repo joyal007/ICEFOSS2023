@@ -21,13 +21,13 @@ $(()=>{
             git: "https://github.com/jopaul23",
             link: "https://www.linkedin.com/in/jopaul-joy"
         },
-        {
-            name: "Pranav V",
-            img: "joyal.jpg",
-            inst: "https://instagram.com/_joyal_raphel",
-            git: "https://github.com/joyal007",
-            link: "https://www.linkedin.com/in/joyalraphel"
-        }
+        // {
+        //     name: "Pranav V",
+        //     img: "joyal.jpg",
+        //     inst: "https://instagram.com/_joyal_raphel",
+        //     git: "https://github.com/joyal007",
+        //     link: "https://www.linkedin.com/in/joyalraphel"
+        // }
     ]
     Tech.map( e=>{
         $("#tech .teachers-pag .container .row").append(`
