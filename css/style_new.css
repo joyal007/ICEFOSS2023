@@ -10967,7 +10967,7 @@ Footer Style Two Area CSS
 .modal {
   
   border-radius: 7px;
-  overflow: hidden;
+  overflow: scroll;
   background-color: transparent; }
   .modal p {
     line-height: 1.5;
