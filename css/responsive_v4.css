@@ -973,7 +973,7 @@
     margin-bottom: 10px;
   }
   .single-counters {
-    border: 1px solid #d80650;
+    border: 1px solid #39e8f5;
   }
   .single-counters::before {
     display: none;
@@ -1979,7 +1979,7 @@
     margin-bottom: 10px;
   }
   .single-counters {
-    border: 1px solid #d80650;
+    border: 1px solid #39e8f5;
   }
   .single-counters::before {
     display: none;
@@ -2611,10 +2611,10 @@
     /* width:80%; */
   }
   .mobile-nav.mean-container .mean-nav ul li a:hover {
-    color: #d80650;
+    color: #39e8f5;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #d80650;
+    color: #39e8f5;
   }
   .nav-area .others-option {
     display: none;

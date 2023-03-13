@@ -165,7 +165,7 @@ Default CSS
 }
 
 .theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #d80650;
+  color: #39e8f5;
 }
 .theme-dark .footer-style-two-with-color{
   background-color: #807d82a1;
@@ -177,8 +177,17 @@ Default CSS
 .theme-dark .copyright-style-two-with-color{
   background-color: #222121;
 }
+.theme-dark .cyber-defenses-content .cyber-list li i{
+  background: none;
+  background-color: #807d82a1;
+}
+.theme-dark .cyber-list li i{
+  background: none;
+  background-color: #222121;
+}
 .theme-dark .home-control-content.white-color-content .home-control-tab-wrap .home-control-tab .tabs li{
   background-color: #222121;
+  border: 1px black solid
 }
 .theme-dark .cyber-defenses-list-tabs .nav .nav-item .nav-link::before{
   background:none;
@@ -282,7 +291,7 @@ Default CSS
 }
 
 .theme-dark .performance-area .single-security:hover .read-more {
-  color: #d80650;
+  color: #39e8f5;
 }
 
 .theme-dark .single-team .content {
@@ -317,8 +326,8 @@ Default CSS
 }
 
 .theme-dark .services-slider-content .thumbs-wrap ul li.active {
-  color: #d80650;
-  border-color: #d80650;
+  color: #39e8f5;
+  border-color: #39e8f5;
 }
 
 .theme-dark .services-slider-content .owl-theme .owl-nav .owl-prev i, .theme-dark .services-slider-content .owl-theme .owl-nav .owl-next i {
@@ -514,7 +523,7 @@ Default CSS
 }
 
 .theme-dark .blog-details-area .widget-area .widget_categories ul li a:hover {
-  color: #d80650;
+  color: #39e8f5;
 }
 
 .theme-dark .blog-details-area .widget-area .tagcloud a {
@@ -527,7 +536,7 @@ Default CSS
 }
 
 .theme-dark .blog-details-area .widget-area .widget_meta ul li a:hover {
-  color: #d80650;
+  color: #39e8f5;
 }
 
 .theme-dark .blog-details-area blockquote {
@@ -543,7 +552,7 @@ Default CSS
 }
 
 .theme-dark .blog-details-area .post-navigation .navigation-links div a:hover {
-  color: #d80650;
+  color: #39e8f5;
 }
 
 .theme-dark .blog-details-area .comments-area .comment-author .fn {
@@ -683,7 +692,7 @@ Default CSS
 
 .theme-dark .checkout-area .user-actions {
   background: #0e0e0e;
-  border-top: 3px solid #d80650;
+  border-top: 3px solid #39e8f5;
 }
 
 .theme-dark .checkout-area .user-actions span {
