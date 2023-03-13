@@ -2607,8 +2607,8 @@
   }
   .mobile-nav.mean-container .mean-nav {
     margin-top: 70px;
-    margin-left:16px;
     /* margin-right:8px */
+    width:80%;
   }
   .mobile-nav.mean-container .mean-nav ul li a:hover {
     color: #d80650;
