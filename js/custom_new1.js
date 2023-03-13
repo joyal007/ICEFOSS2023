@@ -849,6 +849,7 @@ function toggleTheme() {
 }
 // Immediately invoked function to set the theme on initial load
 (function () {
+  setTheme("theme-dark")
   if (localStorage.getItem("seku_theme") === "theme-light") {
     setTheme("theme-light");
     document.getElementById("slider").checked = true;
