@@ -111,7 +111,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.devops.url}">
 							<div class="card p-4" role="button">
-								<img src="./images/devops.webp" alt="" srcset="">
+								<img src="./images/devops.jpg" alt="" srcset="">
 								<div class="card-body">
 									<p>DevOps Workshop</p>
 								</div>
@@ -141,7 +141,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.flutter.url}">
 							<div class="card p-4" role="button">
-								<img src="./images/flutter.webp" alt="" srcset="">
+								<img src="./images/flutter.jpg" alt="" srcset="">
 								<div class="card-body">
 									<p>Flutter Workshop</p>
 								</div>
