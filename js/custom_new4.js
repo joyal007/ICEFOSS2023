@@ -610,6 +610,67 @@ function scrollthere(item, event) {
     },
   });
 
+  const resourcePerson = [
+    {
+      git : "https://github.com/mohitrajane/",
+      link: "https://www.linkedin.com/in/mohit-rajan-e-756412160",
+      img: "mohith.jpeg",
+      name: "Mohit Raj",
+      role: "Web Development",
+      desg:"Software Engineer<br>BigBinary"
+    },
+    {
+      git : "",
+      link: "https://www.linkedin.com/in/nino-joy",
+      img: "ninno.jpeg",
+      name: "Nino Joy",
+      role: "Flutter",
+      desg:"Trainee Software Engineer<br>White Rabbit Group Inc"
+    },
+    {
+      git : "",
+      link: "https://www.linkedin.com/in/dev-aravind-502a10ba",
+      img: "aravind.jpeg",
+      name: "Dev Aravind",
+      role: "Go Lang",
+      desg:"Software Engineer<br>Dexlock"
+    },
+    {
+      git : "",
+      link: "https://www.linkedin.com/in/divyendh-suresh-09a4781b3/",
+      img: "divyendh.jpeg",
+      name: "Divyendh Suresh",
+      role: "DevOps",
+      desg:"DevOps Engineer"
+    }
+  ]
+
+  resourcePerson.map( e=>{
+    $("#resourcePerson .teachers-pag .container .row").append(`
+    <div class="col-md-4 col-sm-6 teachers-col">
+                                        <div class="single-teacher mt-80 text-center">
+                                            <div class="teacher-social">
+                                                <ul class="social">
+                                                    
+                                                    <li><a target="_blank" href="${e.link}"><i class="fab fa-linkedin-in"></i></a></li>
+                                                    <li><a target="_blank" href="${e.git}"><i class="fab fa-github"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="teacher-image">
+                                                <a href="teacher-details.html">
+                                                    <img src="images/${e.img}" style="width:266;height:420px" width="266px" height="359" alt="teacher">
+                                                </a>
+                                            </div>
+                                            <div class="teacher-content">
+                                                <h4 class="name">${e.name}</h4>
+                                                <span class="designation">${e.desg}</span>
+                                                <span style="color:#98f2ed" class="designation">${e.role} WorkShop</span>
+                                            </div>
+                                        </div>
+                                    </div>
+    `)
+})
+
   // Testimonials Slider JS
   $(".testimonials-slider").owlCarousel({
     items: 1,
