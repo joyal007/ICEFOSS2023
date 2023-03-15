@@ -75,6 +75,20 @@ function scrollthere(item, event) {
 					</div>`;
             num += 1;
           }
+          if (data.response.workshop.rust.status) {
+            $('.rust-btn').attr("href",data.response.workshop.rust.url)
+            html_start += `<div class="col-md-4">
+						<a href="${data.response.workshop.rust.url}">
+						<div class="card p-4" role="button">
+						<img src="https://icefoss.fisat.ac.in/images/rust.jpg" alt="" srcset="">
+						<div class="card-body">
+							<p>Rust Workshop</p>
+						</div>
+					</div>
+				</a>
+					</div>`;
+            num += 1;
+          }
           if (data.response.workshop.ar.status) {
             // console.log(data.response)
             $(".ar-btn").attr("href",data.response.workshop.ar.url)
@@ -111,7 +125,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.devops.url}">
 							<div class="card p-4" role="button">
-								<img src="./images/devops.jpg" alt="" srcset="">
+								<img src="https://icefoss.fisat.ac.in/images/devops.jpg" alt="" srcset="">
 								<div class="card-body">
 									<p>DevOps Workshop</p>
 								</div>
@@ -141,7 +155,7 @@ function scrollthere(item, event) {
             html_start += `<div class="col-md-4">
 						<a href="${data.response.workshop.flutter.url}">
 							<div class="card p-4" role="button">
-								<img src="./images/flutter.jpg" alt="" srcset="">
+								<img src="https://icefoss.fisat.ac.in/images/flutter.jpg" alt="" srcset="">
 								<div class="card-body">
 									<p>Flutter Workshop</p>
 								</div>
