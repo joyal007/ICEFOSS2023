@@ -635,6 +635,14 @@ function scrollthere(item, event) {
     },
     {
       git : "",
+      link: "https://www.linkedin.com/in/nandinimenon/",
+      img: "nandhini1.jpeg",
+      name: "Nandihi Menon",
+      role: "Web Development",
+      desg:"Commvault Systems<br>Engineer"
+    },
+    {
+      git : "",
       link: "https://www.linkedin.com/in/nino-joy",
       img: "ninno.jpeg",
       name: "Nino Joy",
@@ -656,7 +664,23 @@ function scrollthere(item, event) {
       name: "Divyendh Suresh",
       role: "DevOps",
       desg:"DevOps Engineer"
-    }
+    },
+    {
+      git : "",
+      link: "https://www.linkedin.com/in/ben24jp/",
+      img: "benjamin.jpg",
+      name: "Benjamin James",
+      role: "Rust",
+      desg:"Design Engineer<br>Digital Core Technologies"
+    },
+    {
+      git : "",
+      link: "https://www.linkedin.com/in/akarsh-ashok/",
+      img: "ar_mentor.jpeg",
+      name: "Akarsh Ashok",
+      role: "AR",
+      desg:"Mentor,XTrudAR<br>Community"
+    },
   ]
 
   resourcePerson.map( e=>{
@@ -671,14 +695,14 @@ function scrollthere(item, event) {
                                                 </ul>
                                             </div>
                                             <div class="teacher-image">
-                                                <a href="teacher-details.html">
-                                                    <img src="images/${e.img}" style="width:266;height:420px" width="266px" height="359" alt="teacher">
-                                                </a>
+                                                
+                                                    <img src="images/${e.img}" style="width:266px;height:400px"alt="teacher">
+                                               
                                             </div>
                                             <div class="teacher-content">
                                                 <h4 class="name">${e.name}</h4>
                                                 <span class="designation">${e.desg}</span>
-                                                <span style="color:#98f2ed" class="designation">${e.role} WorkShop</span>
+                                                <span style="color:#98f2ed;display:block" class="designation">${e.role} WorkShop</span>
                                             </div>
                                         </div>
                                     </div>

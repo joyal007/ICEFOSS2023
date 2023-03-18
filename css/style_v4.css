@@ -9853,6 +9853,12 @@ Sponsers
 .sponser-main img{
   width:180px
 }
+.sponsers-card.sponsor-radio{
+  background: linear-gradient(to bottom, #FF6600, #FF9300);
+}
+.sponsers-card.sponsor-gen{
+  background-color: white;
+}
 .sponsers-card.sponser1{
   background: linear-gradient(108.54deg,rgba(42,109,54,.5) 2.36%,rgba(8,23,15,.5) 98.3%);
     box-shadow: 0 4px 4px rgb(25 124 43 / 30%);

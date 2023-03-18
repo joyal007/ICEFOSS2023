@@ -41,9 +41,9 @@ $(()=>{
                                                     </ul>
                                                 </div>
                                                 <div class="teacher-image">
-                                                    <a href="teacher-details.html">
+                                                    
                                                         <img src="images/${e.img}" width="266" height="359" alt="teacher">
-                                                    </a>
+                                                    
                                                 </div>
                                                 <div class="teacher-content">
                                                     <h4 class="name">${e.name}</h4>
@@ -163,9 +163,9 @@ $(()=>{
                                                     </ul>
                                                 </div>
                                                 <div class="teacher-image">
-                                                    <a href="teacher-details.html">
+                                                    
                                                         <img src="./images/${e.img}" style="width:266;height:400px" width="266" height="359" alt="teacher">
-                                                    </a>
+                                                   
                                                 </div>
                                                 <div class="teacher-content">
                                                     <h4 class="name">${e.name}</h4>
