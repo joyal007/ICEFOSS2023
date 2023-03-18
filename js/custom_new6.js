@@ -639,7 +639,7 @@ function scrollthere(item, event) {
       img: "nandhini1.jpeg",
       name: "Nandihi Menon",
       role: "Web Development",
-      desg:"Commvault Systems<br>Engineer"
+      desg:"Commvault Systems"
     },
     {
       git : "",
@@ -647,7 +647,7 @@ function scrollthere(item, event) {
       img: "ninno.jpeg",
       name: "Nino Joy",
       role: "Flutter",
-      desg:"Trainee Software Engineer<br>White Rabbit Group Inc"
+      desg:"Trainee Software Eng.<br>White Rabbit Group Inc"
     },
     {
       git : "",
@@ -686,7 +686,7 @@ function scrollthere(item, event) {
   resourcePerson.map( e=>{
     $("#resourcePerson .teachers-pag .container .row").append(`
     <div class="col-md-4 col-sm-6 teachers-col">
-                                        <div class="single-teacher mt-80 text-center">
+                                        <div class="single-teacher mt-80 text-center" >
                                             <div class="teacher-social">
                                                 <ul class="social">
                                                     
@@ -701,7 +701,7 @@ function scrollthere(item, event) {
                                             </div>
                                             <div class="teacher-content">
                                                 <h4 class="name">${e.name}</h4>
-                                                <span class="designation">${e.desg}</span>
+                                                
                                                 <span style="color:#98f2ed;display:block" class="designation">${e.role} WorkShop</span>
                                             </div>
                                         </div>
