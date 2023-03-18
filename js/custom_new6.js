@@ -696,7 +696,7 @@ function scrollthere(item, event) {
                                             </div>
                                             <div class="teacher-image">
                                                 
-                                                    <img src="images/${e.img}" style="width:266px;height:400px"alt="teacher">
+                                                    <img src="images/${e.img}" style="width:240px;height:400px"alt="teacher">
                                                
                                             </div>
                                             <div class="teacher-content">
