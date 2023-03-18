@@ -685,8 +685,8 @@ function scrollthere(item, event) {
 
   resourcePerson.map( e=>{
     $("#resourcePerson .teachers-pag .container .row").append(`
-    <div class="col-md-4 col-sm-6 teachers-col">
-                                        <div class="single-teacher mt-80 text-center" >
+    <div class="col-md-4 col-sm-6 teachers-col  ">
+                                        <div class="single-teacher mt-80 text-center mx-auto" >
                                             <div class="teacher-social">
                                                 <ul class="social">
                                                     
