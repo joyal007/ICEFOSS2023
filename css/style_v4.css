@@ -9815,6 +9815,8 @@ Funfacts Style Two Area CSS
   color: #39e8f5;
 }
 
+
+
 /*================================================
 Sponsers
 =================================================*/
@@ -9866,7 +9868,7 @@ Sponsers
   height: 120px; */
 }
 .sponsers-card.sponser2{
-  background: linear-gradient(108.54deg,rgba(94,13,12,.5) 2.36%,rgba(23,1,1,.5) 98.3%);
+  background: linear-gradient(108.54deg,rgb(94 13 12 / 64%) 2.36%,rgba(23,1,1,.5) 98.3%);
   box-shadow: 0 4px 4px rgb(174 28 26 / 30%);
   /* width:175px;
   height:110px; */
